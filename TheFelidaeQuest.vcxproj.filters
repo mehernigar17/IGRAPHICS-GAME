@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\NewFilter1">
+      <UniqueIdentifier>{4fb3354c-302d-47eb-9fe8-b69e40652df7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="homepage.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="mainmenu.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="score.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="help.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="start.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="exit.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="start_h.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="score_h.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="Exit_h.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="help_h.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="story(2).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="back.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="next.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="back_h.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="next_h.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="countdown.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="bufferpage.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="abt us.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aboutus.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aboutus_h.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="map.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LVL1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LVL2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LVL3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="coin.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="lvl1bg.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_9.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_jump_left.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_jump_right.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_0.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_8.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_9.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_10.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_left_11.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_0.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_8.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_10.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="cat_right_11.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat11 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat22 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat33 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat44 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat55 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat66 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat77 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat88 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat1 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat2 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat3 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat6 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat7 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat8 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat4 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="finalrat5 (1).png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level1cbg_resized.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog11.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog22.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog33.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog44.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog55.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog66.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="dog2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LEVEL COMPLETED.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LEVEL LOST.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="fishbone.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog11.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog22.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog33.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog44.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog55.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog66.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newstory1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="newdog3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aboutusfinal.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="scorepage.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="helppage.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LEVEL2_COMPLETED.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LEVEL2_LOST.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LEVEL1_COMPLETED.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="LEVEL1_LOST.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="countdownpage.png">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bgm.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="bonk.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="click2.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="coin.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="level lost.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="level won.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="bgmfinal.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

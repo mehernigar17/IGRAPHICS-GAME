@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5B001B65-5BDB-42BB-868E-7561830F48F6}</ProjectGuid>
+    <RootNamespace>TheFelidaeQuest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="aboutus.png" />
+    <Image Include="aboutusfinal.png" />
+    <Image Include="aboutus_h.png" />
+    <Image Include="abt us.png" />
+    <Image Include="back.png" />
+    <Image Include="back_h.png" />
+    <Image Include="bufferpage.png" />
+    <Image Include="cat_jump_left.png" />
+    <Image Include="cat_jump_right.png" />
+    <Image Include="cat_left_0.png" />
+    <Image Include="cat_left_1.png" />
+    <Image Include="cat_left_10.png" />
+    <Image Include="cat_left_11.png" />
+    <Image Include="cat_left_2.png" />
+    <Image Include="cat_left_3.png" />
+    <Image Include="cat_left_4.png" />
+    <Image Include="cat_left_5.png" />
+    <Image Include="cat_left_6.png" />
+    <Image Include="cat_left_7.png" />
+    <Image Include="cat_left_8.png" />
+    <Image Include="cat_left_9.png" />
+    <Image Include="cat_right_0.png" />
+    <Image Include="cat_right_1.png" />
+    <Image Include="cat_right_10.png" />
+    <Image Include="cat_right_11.png" />
+    <Image Include="cat_right_2.png" />
+    <Image Include="cat_right_3.png" />
+    <Image Include="cat_right_4.png" />
+    <Image Include="cat_right_5.png" />
+    <Image Include="cat_right_6.png" />
+    <Image Include="cat_right_7.png" />
+    <Image Include="cat_right_8.png" />
+    <Image Include="cat_right_9.png" />
+    <Image Include="coin.png" />
+    <Image Include="countdown.png" />
+    <Image Include="countdownpage.png" />
+    <Image Include="dog1.png" />
+    <Image Include="dog11.png" />
+    <Image Include="dog2.png" />
+    <Image Include="dog22.png" />
+    <Image Include="dog3.png" />
+    <Image Include="dog33.png" />
+    <Image Include="dog4.png" />
+    <Image Include="dog44.png" />
+    <Image Include="dog5.png" />
+    <Image Include="dog55.png" />
+    <Image Include="dog6.png" />
+    <Image Include="dog66.png" />
+    <Image Include="exit.png" />
+    <Image Include="Exit_h.png" />
+    <Image Include="finalrat1 (1).png" />
+    <Image Include="finalrat11 (1).png" />
+    <Image Include="finalrat2 (1).png" />
+    <Image Include="finalrat22 (1).png" />
+    <Image Include="finalrat3 (1).png" />
+    <Image Include="finalrat33 (1).png" />
+    <Image Include="finalrat4 (1).png" />
+    <Image Include="finalrat44 (1).png" />
+    <Image Include="finalrat5 (1).png" />
+    <Image Include="finalrat55 (1).png" />
+    <Image Include="finalrat6 (1).png" />
+    <Image Include="finalrat66 (1).png" />
+    <Image Include="finalrat7 (1).png" />
+    <Image Include="finalrat77 (1).png" />
+    <Image Include="finalrat8 (1).png" />
+    <Image Include="finalrat88 (1).png" />
+    <Image Include="fishbone.png" />
+    <Image Include="help.png" />
+    <Image Include="helppage.png" />
+    <Image Include="help_h.png" />
+    <Image Include="homepage.png" />
+    <Image Include="LEVEL COMPLETED.png" />
+    <Image Include="LEVEL LOST.png" />
+    <Image Include="level1cbg_resized.png" />
+    <Image Include="LEVEL1_COMPLETED.png" />
+    <Image Include="LEVEL1_LOST.png" />
+    <Image Include="level2.png" />
+    <Image Include="LEVEL2_COMPLETED.png" />
+    <Image Include="LEVEL2_LOST.png" />
+    <Image Include="LVL1.png" />
+    <Image Include="lvl1bg.png" />
+    <Image Include="LVL2.png" />
+    <Image Include="LVL3.png" />
+    <Image Include="mainmenu.png" />
+    <Image Include="map.png" />
+    <Image Include="newdog1.png" />
+    <Image Include="newdog11.png" />
+    <Image Include="newdog2.png" />
+    <Image Include="newdog22.png" />
+    <Image Include="newdog3.png" />
+    <Image Include="newdog33.png" />
+    <Image Include="newdog4.png" />
+    <Image Include="newdog44.png" />
+    <Image Include="newdog5.png" />
+    <Image Include="newdog55.png" />
+    <Image Include="newdog6.png" />
+    <Image Include="newdog66.png" />
+    <Image Include="newstory1.png" />
+    <Image Include="next.png" />
+    <Image Include="next_h.png" />
+    <Image Include="score.png" />
+    <Image Include="scorepage.png" />
+    <Image Include="score_h.png" />
+    <Image Include="start.png" />
+    <Image Include="start_h.png" />
+    <Image Include="story(2).png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="bgm.wav" />
+    <Media Include="bgmfinal.wav" />
+    <Media Include="bonk.wav" />
+    <Media Include="click2.wav" />
+    <Media Include="coin.wav" />
+    <Media Include="level lost.wav" />
+    <Media Include="level won.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
