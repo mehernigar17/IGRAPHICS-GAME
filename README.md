@@ -68,7 +68,6 @@ Open the project in Visual Studio 2013
 
 
 ### *Menu*
-![mainmenue](https://github.com/user-attachments/assets/2b3d6fc1-4f86-40af-af56-4132899364d5)
 
 ![falidae page](https://github.com/user-attachments/assets/9534c69f-42da-4850-82ec-e35abe370101)
 
